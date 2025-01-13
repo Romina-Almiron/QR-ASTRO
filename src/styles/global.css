@@ -1,0 +1,35 @@
+:root{
+    --color-tarjeta: hsl(0, 0%, 100%);
+    --color-contenedor-300: hsl(212, 45%, 89%);
+    --color-parrafo-500: hsl(216, 15%, 48%);
+    --color-titulo-900: hsl(218, 44%, 22%);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 15px;
+    min-height: 100vh;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    background-color: var(--color-contenedor-300);
+    font-family: 'outfit', sans-serif;
+    line-height: 1.5;
+}
+.attribution { font-size: 11px; text-align: center; margin-top: 25px;}
+.attribution a { color: hsl(228, 45%, 44%);}
+
+
+@media (min-width: 1440px){
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+}
